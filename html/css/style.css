@@ -1,0 +1,82 @@
+/* để note thì ấn CTRL +/ */
+#card {
+    margin: 100px auto; 
+    float: left;
+    margin-right: 50px;
+    /* border:2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 350px;
+    height: 600px;
+    border-radius: 16px;
+    overflow: hidden;
+    /* overflow tránh phần tử tràn ra ngoài khung định sẵn  */
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 1s;
+    
+}
+#card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+img {
+    width: 100%;
+}
+
+#content {
+    text-align: center;
+    /*text-align căn giữa */
+}
+
+.child_content {
+    padding: 20px 16px 40px 16px;
+}
+
+.banner {
+    background-image: url("../images/image.jfif");
+    background-size: 100%;
+    /* background-size quyết định kích thước  background */
+    height: 200px;
+    /* height chiều cao của khối */
+}
+
+.cardName {
+    font-size: 30px;
+    /* font-size: quyếtd định kích thước font chữ */
+    font-weight: bold;
+    /* font-weight:  quyết định độ đậm nhạt */
+}
+
+.date {
+    color: #bc3b0b;
+    /* color quyết định màu chữ */
+}
+
+#footer {
+    background-color: #bc3b0b;
+    /* background-color: quyết định màu nền */
+    height: 200px;
+}
+
+.div_child {
+    float: left;
+    width: 33.3%;
+    padding: 20px 0px 10px 0px;
+}
+
+.child_content1 {
+    font-size: 28px;
+    color: white;
+}
+
+.color {
+    color: white;
+}
+#products{
+    /* margin: 0px auto; */
+    /* text-align: center; */
+    /* float: center; */
+    /* display: flex;
+    justify-content: center; */
+    /* display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; */
+}

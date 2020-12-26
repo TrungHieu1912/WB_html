@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styleProject.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800&family=Langar&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#">
+            <img src='https://thietkelogo.com/wp-content/uploads/2017/09/logo-chanel.png' alt="alo" width="20px" />
+        </a>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div id='banner'>
+        <div id="content">
+            <div id='leftContent'>
+                <div class="Dualshock_4">
+                    Dualshock 4
+                </div>
+                <div class="contentAll">
+                    <div class="leftContent_child">
+                        PS4 v2 <br>
+                        Dualshock 4
+                        <div class="leftText1">
+                            Wireless Controller for PlayStation 4
+                        </div>
+                        <div class="leftText2">
+                            (Compatible/Generic)
+                        </div>
+                    </div>
+                    <div class="cost">
+                        $32.50
+                    </div>
+                    <div class="buy_now">
+                        <button>Buy now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="prevNext">
+                        <button>Prev</button><button>Next</button>
+                    </div>
+                </div>
+            </div>
+            <div id='rightContent'>
+                <p class="two ">02</p>
+            </div>
+
+        </div>
+        <!-- ===================================== -->
+        <div id='img'>
+            <img class="animate__animated animate__bounce " src="./images/tay-cam-game-pc.png" alt="">
+        </div>
+
+        <div class="select">
+            <p class="buttonSp"></p>
+        </div>
+    </div>
+    <!-- <button onclick='myFunction()'>
+        nút
+    </button> -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script src="js/main.js">
+    </script>
+
+</body>
+
+</html>

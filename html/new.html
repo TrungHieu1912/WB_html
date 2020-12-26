@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card {
+            border: 3px solid black;
+            border-radius: 30px;
+            width: 400px;
+            height: 600px;
+        }
+        .banner{
+            overflow: hidden;
+            border-top-left-radius: 32px;
+            border-top-right-radius: 32px;
+        }
+        
+        img {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        #content {
+            text-align: center;
+        }
+
+        .child_content {
+            padding: 20px 16px 60px 16px;
+        }
+        .ct{
+            float: left;
+            /* tìm hiểu về float */
+            width:33%;
+            height: 100px;
+        }
+        .footer{
+            width:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card">
+        <!-- đây là thẻ div chứa toàn bộ card -->
+        <div class="banner">
+            <img src="https://img.vn/uploads/thuvien/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg"
+                alt="">
+        </div>
+        <div id="content">
+            <!-- chứa nội dung thiệp -->
+            <div>
+                <p>14/11/2020</p>
+                <p>Thiệp mời</p>
+            </div>
+            <!-- ------------------- -->
+            <div class="child_content">
+                Compared to display:
+                block, the major
+                difference is that display:
+                inline-block does not add
+                a line-break after the element
+                , so the element can sit next
+                to other elements.
+            </div>
+             <!-- ------------------- -->
+          
+           <div id="footer">
+               <div class="ct">1</div>
+               <div class="ct">2</div>
+               <div class="ct">3</div>
+           </div>
+        </div>
+    </div>
+</body>
+
+</html>
